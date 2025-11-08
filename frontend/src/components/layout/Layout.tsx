@@ -59,7 +59,7 @@ export function Layout({ children }: LayoutProps) {
         <div className="flex items-center justify-between h-14 px-3 border-b border-border">
           <Link to="/" className="flex items-center space-x-2">
             <Globe className="h-8 w-8 text-primary" />
-            <span className="text-xl font-bold text-foreground">Archicad</span>
+            <span className="text-xl font-bold text-foreground">SmartArch</span>
           </Link>
           <button onClick={() => setSidebarOpen(false)} className="lg:hidden text-foreground">
             <X className="h-6 w-6" />
