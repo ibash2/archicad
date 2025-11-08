@@ -41,7 +41,7 @@ export function HomePage() {
               <div className="absolute inset-0 bg-primary/20 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             </div>
             <span className="text-2xl font-bold bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent transition-all duration-300 group-hover:from-primary/80 group-hover:to-primary/40">
-              Archicad
+              SmartArch
             </span>
           </Link>
           <div className="flex items-center space-x-4">
@@ -395,7 +395,7 @@ export function HomePage() {
                 ? 'opacity-100 translate-y-0' 
                 : 'opacity-0 translate-y-8'
             }`}>
-              Присоединяйтесь к профессионалам, которые уже используют Archicad для своих проектов
+              Присоединяйтесь к профессионалам, которые уже используют SmartArch для своих проектов
             </p>
             <div className={`flex flex-col sm:flex-row gap-4 justify-center transition-all duration-700 delay-300 ${
               ctaSection.isInView 
@@ -423,7 +423,7 @@ export function HomePage() {
             <div>
               <div className="flex items-center space-x-3 mb-4">
                 <Globe className="h-6 w-6 text-slate-100" />
-                <span className="text-xl font-bold text-slate-100">Archicad</span>
+                <span className="text-xl font-bold text-slate-100">SmartArch</span>
               </div>
               <p className="text-slate-400 text-sm">
                 Профессиональная платформа для работы с данными топографии и рельефа
@@ -460,7 +460,7 @@ export function HomePage() {
           
           <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center">
             <p className="text-sm text-slate-400">
-              &copy; 2024 Archicad. Все права защищены.
+              &copy; 2024 SmartArch. Все права защищены.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-sm text-slate-400 hover:text-slate-100 transition-colors">Политика конфиденциальности</a>
