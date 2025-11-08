@@ -2,7 +2,7 @@
  * API клиент для сервиса топографии
  */
 
-const API_BASE_URL = (import.meta as any).env?.VITE_API_URL
+const API_BASE_URL = (import.meta as any).env?.VITE_API_URL || '/api'
 
 interface ApiResponse<T = any> {
   data?: T
