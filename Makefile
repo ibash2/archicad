@@ -1,5 +1,5 @@
 DC = docker compose
-APP = docker-compose.yaml
+APP = ./docker-compose.yaml
 ENV = --env-file .env
 
 .PHONY: app
