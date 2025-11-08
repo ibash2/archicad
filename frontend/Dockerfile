@@ -1,10 +1,16 @@
-# Build stage
+# ---------- Build stage ----------
 FROM node:18-alpine AS builder
 WORKDIR /app
+
 COPY package*.json ./
-RUN npm install
+RUN npm ci
+
 COPY . .
-RUN find node_modules/.bin -type f -exec chmod +x {} \;
+
+# Увеличиваем лимит памяти Node.js до 4 ГБ
+ENV NODE_OPTIONS="--max-old-space-size=8000"
+
+# Собираем проект
 RUN npm run build
 
 # Production stage
