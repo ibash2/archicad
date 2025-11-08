@@ -4,7 +4,7 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm install
 COPY . .
-RUN chmod +x node_modules/.bin/tsc
+RUN find node_modules/.bin -type f -exec chmod +x {} \;
 RUN npm run build
 
 # Production stage
