@@ -1,7 +1,7 @@
 {
-  "name": "archicad-frontend",
+  "name": "smartarch-frontend",
   "version": "1.0.0",
-  "description": "Archicad Frontend - Digital Elevation Model & Terrain Analytics",
+  "description": "SmartArch Frontend - Digital Elevation Model & Terrain Analytics",
   "type": "module",
   "scripts": {
     "dev": "vite",
